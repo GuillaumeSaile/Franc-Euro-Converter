@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	font-family: Montserrat, Roboto, Open Sans, Trebuchet MS, sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+	color: #BADA55;
+}
+
+#formDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+span {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+form, .btn {
+	margin-top: 20px;
+}
